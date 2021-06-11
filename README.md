@@ -13,17 +13,13 @@ Now available on [Alcatraz](https://github.com/supermarin/Alcatraz). Once you ha
 
 ### In Terminal
 ```
-git clone https://github.com/Br1an6/Amoyly-Xcode-Themes.git
+git clone https://github.com/dianyij/Amoyly-Xcode-Themes.git \
+&& cd Amoyly-Xcode-Themes/ \
+&& mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes/ \
+&& cp *.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/ \
+&& cd .. \
+&& rm -rf Amoyly-Xcode-Themes/
 
-cd Amoyly-Xcode-Themes/
-
-mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
-
-cp *.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
-
-cd ..
-
-rm -rf Amoyly-Xcode-Themes/
 ```
 ### Class
 ![alt tag](https://raw.githubusercontent.com/Br1an6/Amoyly-Xcode-Themes/master/Amoyly_Class_Implement_Sample.png)
